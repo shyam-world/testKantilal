@@ -1,0 +1,43 @@
+git config --global user.name "kantilalchandre1"
+git config --global user.email "kantilalchandre@gmail.com"
+
+git config --list
+
+git ignore
+
+git remote add origin <URL to repo>
+git config --global user.name "username"
+git config --global user.email "email.id"
+
+git status
+
+git add .                  ==================to add all file
+git add -A filename1 filename2   ========to add perticular files
+git add filename====================to add single file
+
+git commit -m "message name"
+
+git push origin HEAD
+
+how to create branch :
+git branch <branch Name>
+
+how to enter into branch:
+git checkout <branchname>
+
+git merge <branch name>
+
+to delete
+git branch -d branchname
+git branch -D kantilal
+
+git pull url
+
+before commit from delete from staging 
+git reset 
+
+
+git revert------------------after commit 
+
+
+how will get branch after deletion?
